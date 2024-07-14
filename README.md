@@ -33,10 +33,15 @@ The script preprocesses the data by tokenizing the text into sentences and words
 The script defines several functions, including:
 
 *1.check_status*:  retrieves policy information based on a given policy ID
+
 *2.LemTokens*:  lemmatizes tokens using the WordNet lemmatizer
+
 *3.LemNormalize*:  normalizes text by removing punctuation and converting to lowercase
+
 *4.greet*:  responds to greetings
+
 *5.response*:  responds to user queries using cosine similarity and TF-IDF vectorization
+
 **Main Loop**
 The script enters a main loop where it waits for user input. If the user types a greeting, it responds accordingly. If the user types a query, it uses the response function to generate a response. If the user types "bye", it ends the conversation.
 
